@@ -1,0 +1,42 @@
+body {
+    background-image: url("../images/Space-Background.jpg");
+    background-size: cover;
+}
+
+.row.content {
+    height: 550px;
+    padding-top: 90px;
+    color: white;
+}
+
+hr {
+    border: none;
+    border-top: 3px double white;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    background-color: white;
+}
+
+hr:after {
+    color: white;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.stone-image {
+   width: auto;
+   height: 200px;
+}
+
+/* Set black background color, white text and some padding */
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+}
