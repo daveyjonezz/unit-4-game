@@ -29,6 +29,7 @@ hr:after {
 .stone-image {
    width: auto;
    height: 200px;
+   padding: 15px;
 }
 
 /* Set black background color, white text and some padding */

@@ -1,12 +1,19 @@
 // function to check for wins
 // function to check for losses
 // $(this.value) - get value of the button
+
+var stones = ['Mind', 'Power', 'Reality', 'Time'];
 var targetNumber;
 var counter = 0;
-var numberOptions = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-for (var i = 0; i < numberOptions.length; i++) {
+// var numberOptions = [Math.floor(Math.random()*11 +1),Math.floor(Math.random()*11 +1),Math.floor(Math.random()*11 +1),Math.floor(Math.random()*11 +1)];
+for (var i = 0; i < stones.length; i++) {
 
-
+  var imageStone = $("<img>");
+  imageStone.addClass("stone-image");
+  imageStone.attr("src",`./assets/images/${stones[i]}.jpg`);
+  imageStone.attr("stone-value",Math.floor(Math.random()*11 +1));
+  $("#stones").append(imageStone);
+  var linespace = $("<br>");
 
 }
 $(".stone-image").on("click", function() {
