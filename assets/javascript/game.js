@@ -6,6 +6,7 @@ var population = 7000000000;
 var wins = 0;
 var losses = 0;
 
+
 // I copied this random number generator from here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
 function getRandomIntInclusive(min, max) {
