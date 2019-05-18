@@ -32,12 +32,18 @@ hr:after {
    padding: 15px;
 }
 
-/* Set black background color, white text and some padding */
-
 footer {
-    background-color: #555;
+    background-color: rgb(207, 86, 86);
     color: white;
     padding: 15px;
     position: fixed;
     bottom: 0;
+}
+
+#wins, #losses {
+    font-weight: bold;
+}
+
+.firstWord {
+    font-weight: bold;
 }
