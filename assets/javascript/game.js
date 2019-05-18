@@ -19,7 +19,7 @@ for (var i = 0; i < stones.length; i++) {
 
   var imageStone = $("<img>");
   imageStone.addClass("stone-image");
-  imageStone.attr("src",`./assets/images/${stones[i]}.png`);
+  imageStone.attr("src","./assets/images/"+stones[i]+".png");
   imageStone.attr("id",stones[i]);
   imageStone.attr("stone-value", Math.floor(Math.random()*12 +1));
   $("#stones").append(imageStone);
