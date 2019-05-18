@@ -1,6 +1,6 @@
 // PS. I borrowed code from week 4 activity 12
 var audio = new Audio("./assets/javascript/avengers.mp3");
-var stones = ['Mind', 'Power', 'Reality', 'Time', 'Soul', 'Space'];
+var stones = ['Mind', 'Power', 'Reality', 'Time1', 'Soul', 'Space'];
 var counter = 0;
 var population = 7000000000;
 var wins = 0;
