@@ -1,12 +1,12 @@
-// function to check for wins
-// function to check for losses
-// $(this.value) - get value of the button
+// PS. I borrowed code from week 4 activity 12
 var audio = new Audio("./assets/javascript/avengers.mp3");
 var stones = ['Mind', 'Power', 'Reality', 'Time', 'Soul', 'Space'];
 var counter = 0;
 var population = 7000000000;
 var wins = 0;
 var losses = 0;
+
+// I copied this random number generator from here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
 function getRandomIntInclusive(min, max) {
   min = Math.ceil(min);
